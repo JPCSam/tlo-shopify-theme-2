@@ -43,20 +43,22 @@
         <div class="animation-cropper">
           <div class="animation-contents">
             <div class="background-media-text__text{% if section.settings.framed %} background-media-text__text--framed{% endif %}">
-              {%- if section.settings.subtitle -%}
-                <p class="h5">{{ section.settings.subtitle }}</p>
-              {%- endif -%}
-              {%- if section.settings.title != blank -%}
-                <p class="h3">{{ section.settings.title | escape }}</p>
-              {%- endif -%}
-              {%- if section.settings.text != blank -%}
-                <div class="rte background-media-text__subtext">{{ section.settings.text }}</div>
-              {%- endif -%}
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
-                <a href="{{ section.settings.button_link }}" class="btn background-media-text__btn">
-                  {{ section.settings.button_label }}
-                </a>
-              {%- endif -%}
+              <div class="background-media-text__border">
+                {%- if section.settings.subtitle -%}
+                  <p class="h5">{{ section.settings.subtitle }}</p>
+                {%- endif -%}
+                {%- if section.settings.title != blank -%}
+                  <p class="h3">{{ section.settings.title | escape }}</p>
+                {%- endif -%}
+                {%- if section.settings.text != blank -%}
+                  <div class="rte background-media-text__subtext">{{ section.settings.text }}</div>
+                {%- endif -%}
+                {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+                  <a href="{{ section.settings.button_link }}" class="btn background-media-text__btn">
+                    {{ section.settings.button_label }}
+                  </a>
+                {%- endif -%}
+              </div>
             </div>
           </div>
         </div>

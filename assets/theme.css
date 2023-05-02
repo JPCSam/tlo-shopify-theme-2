@@ -11598,6 +11598,11 @@ a.color-swatch:hover {
   color: white;
 }
 
+.background-media-text__border {
+  border: dashed 2px white;
+  padding: 30px;
+}
+
 .background-media-text__btn {
   border: solid white 2px !important;
   background: none !important;
