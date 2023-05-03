@@ -1,7 +1,35 @@
 {
   "sections": {
+    "c145dbec-e84a-4e3f-86e9-f3a33a1de220": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-0",
+        "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
@@ -94,11 +122,44 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9": {
+      "type": "image-compare",
+      "blocks": {
+        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tlo-pattern-01-wide_cb01f614-325e-4408-af85-049eca4e6205.png"
+          }
+        },
+        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tlo-pattern-01-wide.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-0",
+        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": true,
+        "slider_style": "classic",
+        "height": 600,
+        "color": "#FFFFFF",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
+    "c145dbec-e84a-4e3f-86e9-f3a33a1de220",
     "collection-header",
     "promo-grid",
-    "main-collection"
+    "main-collection",
+    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9"
   ]
 }
