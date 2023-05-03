@@ -6,16 +6,37 @@
         "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
           "type": "collection",
           "settings": {
+            "collection": "all-bags"
+          }
+        },
+        "c8d358af-876d-4eb7-b8d7-8eceb95d2776": {
+          "type": "collection",
+          "settings": {
+            "collection": "homepage-all-handbags"
+          }
+        },
+        "f4f3ee82-4436-4c0b-a0b1-ad192755215b": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "768b5442-bb48-41d9-b56f-7d35bd7ec09b": {
+          "type": "collection",
+          "settings": {
             "collection": ""
           }
         }
       },
       "block_order": [
-        "3e321cac-6fcf-4264-a8a6-9e0869de8afc"
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc",
+        "c8d358af-876d-4eb7-b8d7-8eceb95d2776",
+        "f4f3ee82-4436-4c0b-a0b1-ad192755215b",
+        "768b5442-bb48-41d9-b56f-7d35bd7ec09b"
       ],
       "settings": {
-        "title_enable": true,
-        "display_type": "all",
+        "title_enable": false,
+        "display_type": "selected",
         "sort": "alphabetical",
         "grid": "4"
       }
