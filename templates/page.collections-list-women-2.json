@@ -45,16 +45,107 @@
         "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
           "type": "collection",
           "settings": {
+            "collection": "all-bags-womens"
+          }
+        },
+        "fcb3b25c-f34b-42e8-87f3-4166cc32818c": {
+          "type": "collection",
+          "settings": {
+            "collection": "belts-womens"
+          }
+        },
+        "83c94110-9bf9-463b-a768-e07c560d150d": {
+          "type": "collection",
+          "settings": {
+            "collection": "blazer-womens"
+          }
+        },
+        "26dfa3ef-2a30-49d9-a0e2-bb47da59135c": {
+          "type": "collection",
+          "settings": {
+            "collection": "coats-jackets-women"
+          }
+        },
+        "05b3fab5-a946-4a5a-983a-435be455f454": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses-women"
+          }
+        },
+        "d43f4db2-999d-4150-9d63-fcffac6a0298": {
+          "type": "collection",
+          "settings": {
+            "collection": "jeans-women"
+          }
+        },
+        "c35bdd34-580e-4a29-a02b-9c7f67e4ab06": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-jumpers"
+          }
+        },
+        "3f8a94ad-f1cf-4748-bba3-c302899ca22d": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts-womens"
+          }
+        },
+        "9e31974b-3e85-4b6a-bd6f-f221e7f9af3b": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts-womens"
+          }
+        },
+        "56aa7642-dc0b-4f2d-8916-0ce895946ee7": {
+          "type": "collection",
+          "settings": {
+            "collection": "skirts-womens-1"
+          }
+        },
+        "223961ba-1b13-4a34-9f1b-f26d1d1ddf57": {
+          "type": "collection",
+          "settings": {
+            "collection": "sleepwear-women"
+          }
+        },
+        "e57f0794-b721-4123-a43d-46a206dda54d": {
+          "type": "collection",
+          "settings": {
+            "collection": "socks-tights"
+          }
+        },
+        "f5f03f2e-9aaa-47d2-86d8-5ff2afe9bffc": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-sunglasses"
+          }
+        },
+        "910c50e5-4a72-43c6-85f3-0eccf5cb6f29": {
+          "type": "collection",
+          "settings": {
             "collection": ""
           }
         }
       },
       "block_order": [
-        "3e321cac-6fcf-4264-a8a6-9e0869de8afc"
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc",
+        "fcb3b25c-f34b-42e8-87f3-4166cc32818c",
+        "83c94110-9bf9-463b-a768-e07c560d150d",
+        "26dfa3ef-2a30-49d9-a0e2-bb47da59135c",
+        "05b3fab5-a946-4a5a-983a-435be455f454",
+        "d43f4db2-999d-4150-9d63-fcffac6a0298",
+        "c35bdd34-580e-4a29-a02b-9c7f67e4ab06",
+        "3f8a94ad-f1cf-4748-bba3-c302899ca22d",
+        "9e31974b-3e85-4b6a-bd6f-f221e7f9af3b",
+        "56aa7642-dc0b-4f2d-8916-0ce895946ee7",
+        "223961ba-1b13-4a34-9f1b-f26d1d1ddf57",
+        "e57f0794-b721-4123-a43d-46a206dda54d",
+        "f5f03f2e-9aaa-47d2-86d8-5ff2afe9bffc",
+        "910c50e5-4a72-43c6-85f3-0eccf5cb6f29"
       ],
       "settings": {
-        "title_enable": true,
-        "display_type": "all",
+        "title_enable": false,
+        "display_type": "selected",
         "sort": "alphabetical",
         "grid": "4"
       }
