@@ -26,9 +26,12 @@
       "block_order": [
         "template--16172670255262__a2a9b124-ea9c-49fe-a6cd-1b6b6580507d-1683109151112b1b93-0"
       ],
+      "custom_css": [
+        ".hero__image-wrapper:before {z-index: 0;}"
+      ],
       "settings": {
-        "section_height": "450px",
-        "mobile_height": "auto",
+        "section_height": "550px",
+        "mobile_height": "500px",
         "parallax": false,
         "style": "bars",
         "autoplay": false,
