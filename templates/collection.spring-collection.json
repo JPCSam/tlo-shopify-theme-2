@@ -153,6 +153,41 @@
         "color": "#FFFFFF",
         "lazyload_images": true
       }
+    },
+    "e898a2a2-ac1c-42a1-ad2f-2da93ec69971": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 25,
+            "horizontal": 25
+          }
+        },
+        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "100-cashmere-sweaters-4",
+            "vertical": 66,
+            "horizontal": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-0",
+        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-1"
+      ],
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -160,6 +195,7 @@
     "collection-header",
     "promo-grid",
     "main-collection",
-    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9"
+    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9",
+    "e898a2a2-ac1c-42a1-ad2f-2da93ec69971"
   ]
 }
