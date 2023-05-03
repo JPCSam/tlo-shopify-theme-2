@@ -123,7 +123,19 @@
         "910c50e5-4a72-43c6-85f3-0eccf5cb6f29": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "swimwear-women"
+          }
+        },
+        "e5aa0d73-da42-4e33-b13c-4d747fc81228": {
+          "type": "collection",
+          "settings": {
+            "collection": "tshirts-tops-women"
+          }
+        },
+        "1ee0cc7e-cfe9-48a7-9d43-801a8dae703f": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-watches"
           }
         }
       },
@@ -141,7 +153,9 @@
         "223961ba-1b13-4a34-9f1b-f26d1d1ddf57",
         "e57f0794-b721-4123-a43d-46a206dda54d",
         "f5f03f2e-9aaa-47d2-86d8-5ff2afe9bffc",
-        "910c50e5-4a72-43c6-85f3-0eccf5cb6f29"
+        "910c50e5-4a72-43c6-85f3-0eccf5cb6f29",
+        "e5aa0d73-da42-4e33-b13c-4d747fc81228",
+        "1ee0cc7e-cfe9-48a7-9d43-801a8dae703f"
       ],
       "settings": {
         "title_enable": false,
