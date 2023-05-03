@@ -32,7 +32,7 @@
       "settings": {
         "enable": true,
         "collection_image_enable": true,
-        "parallax": true,
+        "parallax": false,
         "parallax_direction": "top"
       }
     },
