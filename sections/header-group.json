@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "UK Delivery",
-            "link_text": "We deliver anywhere in mainland UK.",
+            "link_text": "We deliver anywhere in mainland UK",
             "link": ""
           }
         },
@@ -20,11 +20,20 @@
             "link_text": "30-day postage paid returns",
             "link": ""
           }
+        },
+        "03eafe1b-1182-438f-bc39-0ce1f4b70266": {
+          "type": "announcement",
+          "settings": {
+            "text": "BRAND NEW SITE",
+            "link_text": "Use code NEW20 for an extra 20% off sitewide",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-1",
-        "14e11b67-02d3-4cc2-aaed-1b3747b7e2a4"
+        "14e11b67-02d3-4cc2-aaed-1b3747b7e2a4",
+        "03eafe1b-1182-438f-bc39-0ce1f4b70266"
       ],
       "settings": {
         "announcement_compact": true
