@@ -72,7 +72,7 @@
         "button_link": "shopify:\/\/collections\/armani-watches",
         "image": "shopify:\/\/shop_images\/armani_collection_image_wide.png",
         "layout": "left",
-        "height": 750,
+        "height": 550,
         "framed": false,
         "parallax": true,
         "parallax_direction": "top",
