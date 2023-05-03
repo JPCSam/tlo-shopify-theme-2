@@ -1,5 +1,32 @@
 {
   "sections": {
+    "e8601053-1b3d-4e67-84c5-84af9e81f9f3": {
+      "type": "promo-grid",
+      "blocks": {
+        "aa95fe8d-6bbf-4144-a563-cefbec583b47": {
+          "type": "banner",
+          "settings": {
+            "heading": "NEW SITE CELEBRATION",
+            "text": "Use code NEW20 for 20% off all products sitewide!",
+            "link": "",
+            "label": "",
+            "color_tint": "#22223b",
+            "color_tint_opacity": 20,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "aa95fe8d-6bbf-4144-a563-cefbec583b47"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": false
+      }
+    },
     "main": {
       "type": "list-collections-template",
       "blocks": {
@@ -76,6 +103,7 @@
     }
   },
   "order": [
+    "e8601053-1b3d-4e67-84c5-84af9e81f9f3",
     "main",
     "logo-list"
   ]
