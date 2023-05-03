@@ -43,10 +43,10 @@
       "settings": {
         "title": "Featured products",
         "home_featured_products": "trending-products",
-        "per_row": 4,
+        "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
-        "view_all": true,
+        "view_all": false,
         "divider": false
       }
     },
