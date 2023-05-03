@@ -29,13 +29,13 @@
         ".hero__image-wrapper:before {z-index: 0;}"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "650px",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "lazyload_images": true
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": false
       }
     },
     "featured-collection": {
