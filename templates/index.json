@@ -29,7 +29,7 @@
         ".hero__image-wrapper:before {z-index: 0;}"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "750px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
