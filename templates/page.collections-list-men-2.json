@@ -139,6 +139,9 @@
         "f4328f3f-77ff-40f7-ac50-754bc0ffe9fd",
         "dc941c7f-dafb-4a73-8e27-979c99b5ffeb"
       ],
+      "custom_css": [
+        ".collection-item__title {background-color: white !important;}"
+      ],
       "settings": {
         "title_enable": false,
         "display_type": "selected",
