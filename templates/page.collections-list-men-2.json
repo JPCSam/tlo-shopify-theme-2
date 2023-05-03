@@ -1,5 +1,39 @@
 {
   "sections": {
+    "a2a9b124-ea9c-49fe-a6cd-1b6b6580507d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16172670255262__a2a9b124-ea9c-49fe-a6cd-1b6b6580507d-1683109151112b1b93-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "MEN'S\nCLOTHES &\nACCESSORIES",
+            "title_size": 66,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16172670255262__a2a9b124-ea9c-49fe-a6cd-1b6b6580507d-1683109151112b1b93-0"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
     "main": {
       "type": "list-collections-template",
       "blocks": {
@@ -151,6 +185,7 @@
     }
   },
   "order": [
+    "a2a9b124-ea9c-49fe-a6cd-1b6b6580507d",
     "main"
   ]
 }
