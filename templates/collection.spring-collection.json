@@ -1,12 +1,48 @@
 {
   "sections": {
+    "f9eeb865-9596-4ffa-8ed2-9aae5d681cd1": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16172699779230__f9eeb865-9596-4ffa-8ed2-9aae5d681cd1-16831076777a98de37-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "SHOP\nOUR\nSPRING\nCOLLECTION",
+            "title_size": 80,
+            "subheading": "Short tagline for Spring Collection",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/woman-in-park-afternoon.jpeg",
+            "image_mobile": "shopify:\/\/shop_images\/woman-in-park-afternoon.jpeg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16172699779230__f9eeb865-9596-4ffa-8ed2-9aae5d681cd1-16831076777a98de37-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "c145dbec-e84a-4e3f-86e9-f3a33a1de220": {
       "type": "rich-text",
       "blocks": {
         "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-0": {
           "type": "heading",
           "settings": {
-            "title": "Rich text"
+            "title": "SPRING COLLECTION"
           }
         },
         "template--16172699779230__c145dbec-e84a-4e3f-86e9-f3a33a1de220-16831068831970ee57-1": {
@@ -122,80 +158,13 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
-    },
-    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9": {
-      "type": "image-compare",
-      "blocks": {
-        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tlo-pattern-01-wide_cb01f614-325e-4408-af85-049eca4e6205.png"
-          }
-        },
-        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tlo-pattern-01-wide.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-0",
-        "template--16172699779230__18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9-1683106894d6ffc011-1"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "heading_position": "left",
-        "fullwidth": true,
-        "slider_style": "classic",
-        "height": 600,
-        "color": "#FFFFFF",
-        "lazyload_images": true
-      }
-    },
-    "e898a2a2-ac1c-42a1-ad2f-2da93ec69971": {
-      "type": "hotspots",
-      "blocks": {
-        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-0": {
-          "type": "product",
-          "settings": {
-            "featured_product": "aeronautica-militare-black-shoulder-bag-3",
-            "vertical": 25,
-            "horizontal": 25
-          }
-        },
-        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "100-cashmere-sweaters-4",
-            "vertical": 66,
-            "horizontal": 65
-          }
-        }
-      },
-      "block_order": [
-        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-0",
-        "template--16172699779230__e898a2a2-ac1c-42a1-ad2f-2da93ec69971-1683106952d50a7702-1"
-      ],
-      "settings": {
-        "title": "Shop the look",
-        "heading_size": "h2",
-        "heading_position": "left",
-        "indent_image": false,
-        "image_position": "left",
-        "hotspot_style": "bag",
-        "hotspot_color": "#000000",
-        "lazyload_images": true
-      }
     }
   },
   "order": [
+    "f9eeb865-9596-4ffa-8ed2-9aae5d681cd1",
     "c145dbec-e84a-4e3f-86e9-f3a33a1de220",
     "collection-header",
     "promo-grid",
-    "main-collection",
-    "18b49d26-ae4f-4ff3-9e6d-3c481fa04aa9",
-    "e898a2a2-ac1c-42a1-ad2f-2da93ec69971"
+    "main-collection"
   ]
 }
