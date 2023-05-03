@@ -1,8 +1,23 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "list-collections-template",
+      "blocks": {
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc"
+      ],
       "settings": {
+        "title_enable": true,
+        "display_type": "all",
+        "sort": "alphabetical",
+        "grid": "4"
       }
     }
   },
