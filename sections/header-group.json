@@ -8,7 +8,7 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "UK Delivery",
+            "text": "UK DELIVERY",
             "link_text": "We deliver anywhere in mainland UK",
             "link": ""
           }
@@ -16,7 +16,7 @@
         "14e11b67-02d3-4cc2-aaed-1b3747b7e2a4": {
           "type": "announcement",
           "settings": {
-            "text": "Hassle-free returns",
+            "text": "HASSLE-FREE RETURNS",
             "link_text": "30-day postage paid returns",
             "link": ""
           }
