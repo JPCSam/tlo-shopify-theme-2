@@ -50,6 +50,58 @@
         "divider": false
       }
     },
+    "1ad947d8-6d5a-447b-8570-b1e156d35040": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/armani_logo.png",
+            "link": ""
+          }
+        },
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/versace_logo.png",
+            "link": ""
+          }
+        },
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mk_logo.png",
+            "link": ""
+          }
+        },
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tedbaker_logo.svg",
+            "link": ""
+          }
+        },
+        "868dc0c3-b22c-4b6d-b882-7d53fa9f3635": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dg_logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-0",
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-1",
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-2",
+        "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-3",
+        "868dc0c3-b22c-4b6d-b882-7d53fa9f3635"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    },
     "1692f8f4-0b34-4516-b088-ee3dd53e35d3": {
       "type": "featured-collection",
       "settings": {
@@ -194,6 +246,7 @@
   "order": [
     "slideshow",
     "featured-collection",
+    "1ad947d8-6d5a-447b-8570-b1e156d35040",
     "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "background-image-text",
     "promo-grid2",
