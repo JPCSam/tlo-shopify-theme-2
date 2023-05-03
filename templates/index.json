@@ -57,35 +57,35 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/armani_logo.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/giorgio-armani"
           }
         },
         "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-1": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/versace_logo.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/versace"
           }
         },
         "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mk_logo.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/michael-kors"
           }
         },
         "template--16167988199582__1ad947d8-6d5a-447b-8570-b1e156d35040-1683123249520fc49f-3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/tedbaker_logo.svg",
-            "link": ""
+            "link": "shopify:\/\/collections\/ted-baker"
           }
         },
         "868dc0c3-b22c-4b6d-b882-7d53fa9f3635": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dg_logo.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/dolce-gabbana"
           }
         }
       },
