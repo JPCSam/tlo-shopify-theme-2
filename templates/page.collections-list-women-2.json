@@ -19,9 +19,47 @@
         "sort": "alphabetical",
         "grid": "4"
       }
+    },
+    "eb0ec846-e34c-4924-8ded-b8e79857ff2f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16172670288030__eb0ec846-e34c-4924-8ded-b8e79857ff2f-1683124058aa90c806-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16172670288030__eb0ec846-e34c-4924-8ded-b8e79857ff2f-1683124058aa90c806-0"
+      ],
+      "custom_css": [
+        ".hero__image-wrapper:before {z-index: 0;}"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "500px",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "eb0ec846-e34c-4924-8ded-b8e79857ff2f"
   ]
 }
