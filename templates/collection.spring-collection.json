@@ -6,11 +6,11 @@
         "banner": {
           "type": "banner",
           "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
+            "heading": "NEW SITE CELEBRATION",
+            "text": "Use code NEW20 for 20% off all products sitewide!",
             "link": "",
             "label": "",
-            "color_tint": "#22223b",
+            "color_tint": "#ff4f33",
             "color_tint_opacity": 20,
             "framed": false
           }
@@ -20,9 +20,9 @@
         "banner"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
         "space_below": false,
         "lazyload_images": true
       }
