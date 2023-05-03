@@ -1,1 +1,190 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"top_subheading":"","title":"THIS SEASON'S STYLES","title_size":80,"subheading":"Refresh your wardrobe with the latest trends from our spring collection!","link":"shopify:\/\/collections\/spring-collection","link_text":"VIEW SPRING COLLECTION","link_2":"","link_text_2":"","color_accent":"#22223b","text_align":"vertical-bottom horizontal-left","image":"shopify:\/\/shop_images\/iStock-888019382_c.jpg","parallax_direction":"top","overlay_opacity":0}}},"block_order":["slideshow-0"],"settings":{"section_height":"750px","mobile_height":"auto","parallax":true,"style":"bars","autoplay":true,"autoplay_speed":7,"lazyload_images":true}},"featured-collection":{"type":"featured-collection","settings":{"title":"Featured products","home_featured_products":"trending-products","per_row":4,"rows":1,"mobile_scrollable":true,"view_all":true,"divider":false}},"background-image-text":{"type":"background-image-text","settings":{"subtitle":"MEN'S WATCHES","title":"EMPORIO ARMANI COLLECTION","text":"<p>Armani watches are renowned for their luxurious designs, precision engineering, and timeless elegance, and this collection is no exception.<\/p>","button_label":"Visit Collection","button_link":"shopify:\/\/collections\/armani-watches","image":"shopify:\/\/shop_images\/armani_collection_image_wide.png","layout":"left","height":750,"framed":false,"parallax":true,"parallax_direction":"top","lazyload_images":true}},"promo-grid2":{"type":"promo-grid","blocks":{"4601ebf1-3f7c-47cf-a8f7-c029948ea38b":{"type":"simple","settings":{"link":"shopify:\/\/collections\/homepage-all-handbags","text":"HANDBAGS","image":"shopify:\/\/shop_images\/Homepage_Handbags.png","width":"50","height":400,"color_tint":"#000000","color_tint_opacity":0,"framed":true}},"75aed90b-bf01-40e8-be7c-a68a30d4e614":{"type":"simple","settings":{"link":"shopify:\/\/collections\/homepage-all-shoes","text":"SHOES","image":"shopify:\/\/shop_images\/Homepage_Shoes.png","width":"50","height":400,"color_tint":"#000000","color_tint_opacity":0,"framed":true}},"8023bda6-12b5-4096-992b-5f0209adc365":{"type":"simple","settings":{"link":"shopify:\/\/collections\/all-watches","text":"WATCHES","width":"33","height":300,"color_tint":"#000000","color_tint_opacity":0,"framed":true}},"c28e1607-efec-4d9b-b15d-2e047548e3c3":{"type":"simple","settings":{"link":"shopify:\/\/collections\/homepage-all-hoodies","text":"HOODIES","image":"shopify:\/\/shop_images\/Men_s_Hoodies.png","width":"33","height":300,"color_tint":"#000000","color_tint_opacity":0,"framed":true}},"73190f48-8543-4c09-b5fb-1580416dbdf6":{"type":"simple","settings":{"link":"shopify:\/\/collections\/all-t-shirts","text":"T-SHIRTS","image":"shopify:\/\/shop_images\/Homepage_TShirt.png","width":"33","height":300,"color_tint":"#000000","color_tint_opacity":0,"framed":true}}},"block_order":["4601ebf1-3f7c-47cf-a8f7-c029948ea38b","75aed90b-bf01-40e8-be7c-a68a30d4e614","8023bda6-12b5-4096-992b-5f0209adc365","c28e1607-efec-4d9b-b15d-2e047548e3c3","73190f48-8543-4c09-b5fb-1580416dbdf6"],"settings":{"full_width":false,"gutter_size":20,"space_above":true,"space_below":false,"lazyload_images":true}},"blog-posts":{"type":"blog-posts","disabled":true,"settings":{"title":"From the journal","blog":"news","post_limit":3,"blog_show_tags":false,"blog_show_date":true,"blog_show_comments":false,"blog_show_author":false,"view_all":true,"blog_image_size":"wide","divider":false}},"map":{"type":"map","disabled":true,"settings":{"map_title":"Our retail store","address":"<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>","map_address":"301 Front St W, Toronto, ON M5V 2T6","api_key":"","show_button":true,"lazyload_images":true}}},"order":["slideshow","featured-collection","background-image-text","promo-grid2","blog-posts","map"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "THIS SEASON'S STYLES",
+            "title_size": 80,
+            "subheading": "Refresh your wardrobe with the latest trends from our spring collection!",
+            "link": "shopify:\/\/collections\/spring-collection",
+            "link_text": "VIEW SPRING COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#22223b",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/iStock-888019382_c.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "custom_css": [
+        ".hero__image-wrapper:before {z-index: 0;}"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "home_featured_products": "trending-products",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "MEN'S WATCHES",
+        "title": "EMPORIO ARMANI COLLECTION",
+        "text": "<p>Armani watches are renowned for their luxurious designs, precision engineering, and timeless elegance, and this collection is no exception.<\/p>",
+        "button_label": "Visit Collection",
+        "button_link": "shopify:\/\/collections\/armani-watches",
+        "image": "shopify:\/\/shop_images\/armani_collection_image_wide.png",
+        "layout": "left",
+        "height": 750,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "blocks": {
+        "4601ebf1-3f7c-47cf-a8f7-c029948ea38b": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/homepage-all-handbags",
+            "text": "HANDBAGS",
+            "image": "shopify:\/\/shop_images\/Homepage_Handbags.png",
+            "width": "50",
+            "height": 400,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": true
+          }
+        },
+        "75aed90b-bf01-40e8-be7c-a68a30d4e614": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/homepage-all-shoes",
+            "text": "SHOES",
+            "image": "shopify:\/\/shop_images\/Homepage_Shoes.png",
+            "width": "50",
+            "height": 400,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": true
+          }
+        },
+        "8023bda6-12b5-4096-992b-5f0209adc365": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/all-watches",
+            "text": "WATCHES",
+            "width": "33",
+            "height": 300,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": true
+          }
+        },
+        "c28e1607-efec-4d9b-b15d-2e047548e3c3": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/homepage-all-hoodies",
+            "text": "HOODIES",
+            "image": "shopify:\/\/shop_images\/Men_s_Hoodies.png",
+            "width": "33",
+            "height": 300,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": true
+          }
+        },
+        "73190f48-8543-4c09-b5fb-1580416dbdf6": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/all-t-shirts",
+            "text": "T-SHIRTS",
+            "image": "shopify:\/\/shop_images\/Homepage_TShirt.png",
+            "width": "33",
+            "height": 300,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "4601ebf1-3f7c-47cf-a8f7-c029948ea38b",
+        "75aed90b-bf01-40e8-be7c-a68a30d4e614",
+        "8023bda6-12b5-4096-992b-5f0209adc365",
+        "c28e1607-efec-4d9b-b15d-2e047548e3c3",
+        "73190f48-8543-4c09-b5fb-1580416dbdf6"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collection",
+    "background-image-text",
+    "promo-grid2",
+    "blog-posts",
+    "map"
+  ]
+}
