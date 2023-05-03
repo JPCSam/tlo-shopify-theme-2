@@ -41,8 +41,20 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "TRENDING PRODUCTS",
         "home_featured_products": "trending-products",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "1692f8f4-0b34-4516-b088-ee3dd53e35d3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SPRING COLLECTION",
+        "home_featured_products": "spring-collection",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
@@ -182,6 +194,7 @@
   "order": [
     "slideshow",
     "featured-collection",
+    "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "background-image-text",
     "promo-grid2",
     "blog-posts",
