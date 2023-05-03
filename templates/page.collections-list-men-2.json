@@ -6,25 +6,115 @@
         "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
           "type": "collection",
           "settings": {
-            "collection": "all-bags"
+            "collection": "men-backpacks"
           }
         },
         "c8d358af-876d-4eb7-b8d7-8eceb95d2776": {
           "type": "collection",
           "settings": {
-            "collection": "homepage-all-handbags"
+            "collection": "men-belts"
           }
         },
         "f4f3ee82-4436-4c0b-a0b1-ad192755215b": {
           "type": "collection",
           "settings": {
-            "collection": "armani-watches"
+            "collection": "men-blazer"
           }
         },
-        "768b5442-bb48-41d9-b56f-7d35bd7ec09b": {
+        "02c5bd8e-d9c6-4b06-8fde-8be368fb1b38": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "gloves-mens"
+          }
+        },
+        "48adaa94-ac99-4614-8085-aa494ac73a65": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-caps-hats"
+          }
+        },
+        "d62c1353-ca36-44d3-ae8c-fd4767649632": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-hoodies-cardigans-sweaters"
+          }
+        },
+        "07e14b5b-d412-468d-b7be-0ef9d6c4be03": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-coats-jackets"
+          }
+        },
+        "29cc7ac8-a655-4231-9bf7-ad49fce2668c": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-jeans"
+          }
+        },
+        "53012d9d-0437-46a5-8698-e957b28ffa30": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-scarves"
+          }
+        },
+        "cd6eb9ee-5192-4fc7-b55e-e2564c5f63c9": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-shirts"
+          }
+        },
+        "39efcab9-ea7d-4db3-ab09-25da3949d3d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-shorts"
+          }
+        },
+        "79ed3166-0c22-49d9-ac7f-24e7b5c073ea": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-sleepwear"
+          }
+        },
+        "ad293c3a-a0f9-4a14-b82f-4ccde2340346": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-socks"
+          }
+        },
+        "7c0a5381-cdf6-449c-ac46-a6af6c968b77": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-suits"
+          }
+        },
+        "e2fbb091-b44f-4f47-8975-e1e9593d1ec3": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-sunglasses"
+          }
+        },
+        "af0d81f0-598d-4bf5-b94a-d98f244622ae": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-swimwear"
+          }
+        },
+        "7537dbe8-010c-4cae-b43a-abf2375d3df3": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-tshirts-1"
+          }
+        },
+        "f4328f3f-77ff-40f7-ac50-754bc0ffe9fd": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-underwears"
+          }
+        },
+        "dc941c7f-dafb-4a73-8e27-979c99b5ffeb": {
+          "type": "collection",
+          "settings": {
+            "collection": "men-watches"
           }
         }
       },
@@ -32,13 +122,28 @@
         "3e321cac-6fcf-4264-a8a6-9e0869de8afc",
         "c8d358af-876d-4eb7-b8d7-8eceb95d2776",
         "f4f3ee82-4436-4c0b-a0b1-ad192755215b",
-        "768b5442-bb48-41d9-b56f-7d35bd7ec09b"
+        "02c5bd8e-d9c6-4b06-8fde-8be368fb1b38",
+        "48adaa94-ac99-4614-8085-aa494ac73a65",
+        "d62c1353-ca36-44d3-ae8c-fd4767649632",
+        "07e14b5b-d412-468d-b7be-0ef9d6c4be03",
+        "29cc7ac8-a655-4231-9bf7-ad49fce2668c",
+        "53012d9d-0437-46a5-8698-e957b28ffa30",
+        "cd6eb9ee-5192-4fc7-b55e-e2564c5f63c9",
+        "39efcab9-ea7d-4db3-ab09-25da3949d3d3",
+        "79ed3166-0c22-49d9-ac7f-24e7b5c073ea",
+        "ad293c3a-a0f9-4a14-b82f-4ccde2340346",
+        "7c0a5381-cdf6-449c-ac46-a6af6c968b77",
+        "e2fbb091-b44f-4f47-8975-e1e9593d1ec3",
+        "af0d81f0-598d-4bf5-b94a-d98f244622ae",
+        "7537dbe8-010c-4cae-b43a-abf2375d3df3",
+        "f4328f3f-77ff-40f7-ac50-754bc0ffe9fd",
+        "dc941c7f-dafb-4a73-8e27-979c99b5ffeb"
       ],
       "settings": {
         "title_enable": false,
         "display_type": "selected",
         "sort": "alphabetical",
-        "grid": "4"
+        "grid": "3"
       }
     }
   },
