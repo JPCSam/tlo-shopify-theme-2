@@ -1,25 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "list-collections-template",
-      "blocks": {
-        "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "3e321cac-6fcf-4264-a8a6-9e0869de8afc"
-      ],
-      "settings": {
-        "title_enable": true,
-        "display_type": "all",
-        "sort": "alphabetical",
-        "grid": "4"
-      }
-    },
     "eb0ec846-e34c-4924-8ded-b8e79857ff2f": {
       "type": "slideshow",
       "blocks": {
@@ -27,11 +7,11 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
-            "title_size": 80,
-            "subheading": "Bring your brand to life",
+            "title": "WOMEN'S\nCLOTHES &\nACCESSORIES",
+            "title_size": 70,
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
@@ -56,10 +36,30 @@
         "autoplay_speed": 5,
         "lazyload_images": false
       }
+    },
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e321cac-6fcf-4264-a8a6-9e0869de8afc"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "all",
+        "sort": "alphabetical",
+        "grid": "4"
+      }
     }
   },
   "order": [
-    "main",
-    "eb0ec846-e34c-4924-8ded-b8e79857ff2f"
+    "eb0ec846-e34c-4924-8ded-b8e79857ff2f",
+    "main"
   ]
 }
