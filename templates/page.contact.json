@@ -36,7 +36,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "title": "Contact us",
+        "title": "",
         "text": "",
         "show_phone": false,
         "narrow_column": true
