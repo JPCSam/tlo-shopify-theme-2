@@ -92,6 +92,7 @@
         },
         "53012d9d-0437-46a5-8698-e957b28ffa30": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "mens-scarves"
           }
