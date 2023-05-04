@@ -12,8 +12,8 @@
         "template--16173590642846__854a32de-4626-48fa-84a1-848aa28045f6-16832041829272751a-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>{{ article.metafields.custom.ootd_intro | metafield_tag }}<\/p>"
           }
         }
       },
