@@ -1,5 +1,4 @@
 {%- liquid
-
   unless background_position
     assign background_position = 'center center'
   endunless
@@ -18,8 +17,11 @@
 -%}
 
 <div class="grid__item {{ gridView }}" {{ block.shopify_attributes }}>
-  <a href="{{ collection.url }}" class="collection-item collection-item--{{ settings.collection_grid_style }}" data-aos="row-of-{{ per_row }}">
-
+  <a
+    href="{{ collection.url }}"
+    class="collection-item collection-item--{{ settings.collection_grid_style }}"
+    data-aos="row-of-{{ per_row }}"
+  >
     {%- liquid
       if settings.collection_grid_image == 'collection' and collection.image
         assign collection_image = collection.image
@@ -28,39 +30,36 @@
       endif
     -%}
 
-    {%- if collection.products_count == 0 or collection == blank -%}
-      {%- capture placeholder -%}collection-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
-    {%- else -%}
-      <div class="collection-image collection-image--{{ settings.collection_grid_shape }} image-wrap">
-        {% assign indicator = block.id %}
-        {% if block == blank %}
-          {% assign indicator = collection.id %}
-        {% endif %}
+    <div class="collection-image collection-image--{{ settings.collection_grid_shape }} image-wrap">
+      {% assign indicator = block.id %}
+      {% if block == blank %}
+        {% assign indicator = collection.id %}
+      {% endif %}
 
-        {% style %}
-          .collection-image--{{ indicator }} {
-            object-position: {{ background_position }};
-          }
-        {% endstyle %}
+      {% style %}
+        .collection-image--{{ indicator }} {
+          object-position: {{ background_position }};
+        }
+      {% endstyle %}
 
-        {% assign classes = 'collection-image--' | append: indicator %}
-        {%- render 'image-element',
-          img: collection_image,
-          widths: '360, 540, 720, 900, 1080',
-          classes: classes,
-          sizes: sizes,
-          sizeVariable: sizeVariable,
-          fallback: fallback,
-        -%}
-      </div>
-    {%- endif -%}
+      {% assign classes = 'collection-image--' | append: indicator %}
+      {%-
+        render 'image-element',
+        img: collection_image,
+        widths: '360, 540, 720, 900, 1080',
+        classes: classes,
+        sizes: sizes,
+        sizeVariable: sizeVariable,
+        fallback: fallback,
+      -%}
+    </div>
 
     <span
-      class="collection-item__title collection-item__title--{{ settings.collection_grid_style }} collection-item__title--{{ settings.type_collection_font }} collection-item__title--{{ settings.collection_grid_text_align }}">
+      class="collection-item__title collection-item__title--{{ settings.collection_grid_style }} collection-item__title--{{ settings.type_collection_font }} collection-item__title--{{ settings.collection_grid_text_align }}"
+    >
       <span>
         {{ title_output }}
       </span>
     </span>
-
   </a>
 </div>
