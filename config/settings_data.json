@@ -741,5 +741,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#smartwishlist_desktop_link {display: none !important;}"
+    ]
   }
 }
