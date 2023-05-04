@@ -1,1 +1,63 @@
-{"sections":{"main":{"type":"main-404","settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Popular picks"}}},"order":["main","featured-collection"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "56409712-5819-486f-9899-5b18ef98d21c": {
+      "type": "slideshow",
+      "blocks": {
+        "463eaa40-3c6e-4e92-83a7-a901ebc0b387": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "404",
+            "title_size": 100,
+            "subheading": "Sorry, we've not been able to find that page.",
+            "link": "https:\/\/toplabelsonline.com\/",
+            "link_text": "GO HOME",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#22223b",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/tlo-pattern-01-wide_cb01f614-325e-4408-af85-049eca4e6205.png",
+            "image_mobile": "shopify:\/\/shop_images\/tlo-pattern-01-wide_cb01f614-325e-4408-af85-049eca4e6205.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "463eaa40-3c6e-4e92-83a7-a901ebc0b387"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FEATURED PRODUCTS",
+        "home_featured_products": "trending-products",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "56409712-5819-486f-9899-5b18ef98d21c",
+    "featured-collection"
+  ]
+}
