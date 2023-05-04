@@ -7,7 +7,7 @@
     assign title_output = block.settings.title
   else
     if collection.products_count == 0 or collection == blank
-      assign title_output = 'home_page.onboarding.collection_title' | t
+      assign title_output = 'OUT OF STOCK'
     elsif collection_title
       assign title_output = collection_title
     else
