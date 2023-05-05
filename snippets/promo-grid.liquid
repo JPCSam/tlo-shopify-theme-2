@@ -393,7 +393,7 @@
                       <p class="h3">{{ block.settings.heading }}</p>
                     {%- endif -%}
                     {%- if block.settings.text != blank -%}
-                      <p>{{ block.settings.text }}</p>
+                      <p class="h3 not_h3">{{ block.settings.text }}</p>
                     {%- endif -%}
                     {%- if block.settings.label != blank -%}
                       <p class="btn btn--secondary btn--small{% if tint_exists %} btn--tint-border{% endif %}">{{ block.settings.label }}</p>
