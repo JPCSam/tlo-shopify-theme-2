@@ -50,6 +50,35 @@
         "divider": false
       }
     },
+    "background-image-text": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "MEN'S WATCHES",
+        "title": "EMPORIO ARMANI COLLECTION",
+        "text": "<p>Armani watches are renowned for their luxurious designs, precision engineering, and timeless elegance, and this collection is no exception.<\/p>",
+        "button_label": "Visit Collection",
+        "button_link": "shopify:\/\/collections\/armani-watches",
+        "image": "shopify:\/\/shop_images\/armani_collection_image_wide.png",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "1692f8f4-0b34-4516-b088-ee3dd53e35d3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SPRING COLLECTION",
+        "home_featured_products": "spring-collection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "1ad947d8-6d5a-447b-8570-b1e156d35040": {
       "type": "logo-list",
       "blocks": {
@@ -100,35 +129,6 @@
         "title": "",
         "logo_opacity": 76,
         "divider": false
-      }
-    },
-    "1692f8f4-0b34-4516-b088-ee3dd53e35d3": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SPRING COLLECTION",
-        "home_featured_products": "spring-collection",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "MEN'S WATCHES",
-        "title": "EMPORIO ARMANI COLLECTION",
-        "text": "<p>Armani watches are renowned for their luxurious designs, precision engineering, and timeless elegance, and this collection is no exception.<\/p>",
-        "button_label": "Visit Collection",
-        "button_link": "shopify:\/\/collections\/armani-watches",
-        "image": "shopify:\/\/shop_images\/armani_collection_image_wide.png",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
       }
     },
     "promo-grid2": {
@@ -241,16 +241,32 @@
         "show_button": true,
         "lazyload_images": true
       }
+    },
+    "1370f3ef-9a74-40bb-a7a9-3e88addf57b2": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "article",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "landscape",
+        "divider": false
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection",
-    "1ad947d8-6d5a-447b-8570-b1e156d35040",
-    "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "background-image-text",
+    "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
+    "1ad947d8-6d5a-447b-8570-b1e156d35040",
     "promo-grid2",
     "blog-posts",
-    "map"
+    "map",
+    "1370f3ef-9a74-40bb-a7a9-3e88addf57b2"
   ]
 }
