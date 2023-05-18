@@ -1,44 +1,9 @@
 {
   "sections": {
-    "d8fbb69f-e0a4-4edb-9196-d621169c8d54": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16167988101278__d8fbb69f-e0a4-4edb-9196-d621169c8d54-168440385074cb2d5e-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "{{ article.title }}",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "{{ article.image }}",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16167988101278__d8fbb69f-e0a4-4edb-9196-d621169c8d54-168440385074cb2d5e-0"
-      ],
-      "settings": {
-        "section_height": "450px",
-        "mobile_height": "300px",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "main": {
       "type": "article-template",
       "settings": {
-        "image_hero": false,
+        "image_hero": true,
         "blog_show_tags": true,
         "blog_show_date": true,
         "blog_show_comments": true,
@@ -48,6 +13,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "You may also like",
         "blog": "",
@@ -63,7 +29,6 @@
     }
   },
   "order": [
-    "d8fbb69f-e0a4-4edb-9196-d621169c8d54",
     "main",
     "blog-posts"
   ]
