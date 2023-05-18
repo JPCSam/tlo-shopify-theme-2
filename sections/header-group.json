@@ -8,8 +8,8 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "UK DELIVERY",
-            "link_text": "We deliver anywhere in mainland UK",
+            "text": "NOW SHIPPING TO UK & EUROPE",
+            "link_text": "",
             "link": ""
           }
         },
