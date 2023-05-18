@@ -16,6 +16,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "{{ article.image }}",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
