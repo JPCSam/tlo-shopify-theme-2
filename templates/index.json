@@ -150,7 +150,7 @@
         "75aed90b-bf01-40e8-be7c-a68a30d4e614": {
           "type": "simple",
           "settings": {
-            "link": "shopify:\/\/collections\/homepage-all-shoes",
+            "link": "shopify:\/\/collections\/homepage-shoes",
             "text": "SHOES",
             "image": "shopify:\/\/shop_images\/Homepage_Shoes.png",
             "width": "50",
