@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "854a32de-4626-48fa-84a1-848aa28045f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16173590642846__854a32de-4626-48fa-84a1-848aa28045f6-16832041829272751a-0": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ article.title }}"
+          }
+        },
+        "template--16173590642846__854a32de-4626-48fa-84a1-848aa28045f6-16832041829272751a-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>{{ article.metafields.custom.ootd_intro | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16173590642846__854a32de-4626-48fa-84a1-848aa28045f6-16832041829272751a-0",
+        "template--16173590642846__854a32de-4626-48fa-84a1-848aa28045f6-16832041829272751a-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "74b2638a-5eeb-4030-961d-7e7e4d6463ee": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16173590642846__74b2638a-5eeb-4030-961d-7e7e4d6463ee-1683204156bc5c5ceb-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 25,
+            "horizontal": 25
+          }
+        },
+        "template--16173590642846__74b2638a-5eeb-4030-961d-7e7e4d6463ee-1683204156bc5c5ceb-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 75,
+            "horizontal": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--16173590642846__74b2638a-5eeb-4030-961d-7e7e4d6463ee-1683204156bc5c5ceb-0",
+        "template--16173590642846__74b2638a-5eeb-4030-961d-7e7e4d6463ee-1683204156bc5c5ceb-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h3",
+        "heading_position": "left",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like",
+        "blog": "",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "854a32de-4626-48fa-84a1-848aa28045f6",
+    "74b2638a-5eeb-4030-961d-7e7e4d6463ee",
+    "main",
+    "blog-posts"
+  ]
+}
