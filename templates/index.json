@@ -50,38 +50,20 @@
         "divider": false
       }
     },
-    "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16167988199582__18fa67ae-c93b-4e5e-8fa9-b85cd8518d62-168547140818123d83-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 40,
-            "subheading": "",
-            "link": "https:\/\/toplabelsonline.com\/collections\/homepage-shoes?filter.p.vendor=Dolce+%26+Gabbana",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/image_2.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16167988199582__18fa67ae-c93b-4e5e-8fa9-b85cd8518d62-168547140818123d83-0"
-      ],
+    "6a80c783-2ad3-4e97-ace7-bb839e1201f4": {
+      "type": "background-image-text",
       "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
+        "subtitle": "UP TO 35% OFF",
+        "title": "SHOP D&G SHOES",
+        "text": "<p>TLO presents an exquisite Dolce & Gabbana shoe collection: stylish, luxurious, and effortlessly elegant.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/dolce_collection.png",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
         "parallax": false,
-        "style": "minimal",
-        "autoplay": false,
-        "autoplay_speed": 5,
+        "parallax_direction": "top",
         "lazyload_images": true
       }
     },
@@ -279,7 +261,7 @@
   "order": [
     "slideshow",
     "featured-collection",
-    "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62",
+    "6a80c783-2ad3-4e97-ace7-bb839e1201f4",
     "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "1ad947d8-6d5a-447b-8570-b1e156d35040",
     "promo-grid2",
