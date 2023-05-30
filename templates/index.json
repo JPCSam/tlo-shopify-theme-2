@@ -53,17 +53,52 @@
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "MEN'S WATCHES",
-        "title": "EMPORIO ARMANI COLLECTION",
-        "text": "<p>Armani watches are renowned for their luxurious designs, precision engineering, and timeless elegance, and this collection is no exception.<\/p>",
-        "button_label": "Visit Collection",
-        "button_link": "shopify:\/\/collections\/armani-watches",
-        "image": "shopify:\/\/shop_images\/armani_collection_image_wide.png",
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/image_2.png",
         "layout": "left",
         "height": 550,
         "framed": false,
         "parallax": true,
         "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16167988199582__18fa67ae-c93b-4e5e-8fa9-b85cd8518d62-168547140818123d83-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/image_2.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16167988199582__18fa67ae-c93b-4e5e-8fa9-b85cd8518d62-168547140818123d83-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 5,
         "lazyload_images": true
       }
     },
@@ -262,6 +297,7 @@
     "slideshow",
     "featured-collection",
     "background-image-text",
+    "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62",
     "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "1ad947d8-6d5a-447b-8570-b1e156d35040",
     "promo-grid2",
