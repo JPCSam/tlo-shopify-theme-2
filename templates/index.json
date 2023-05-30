@@ -50,23 +50,6 @@
         "divider": false
       }
     },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/image_2.png",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
-    },
     "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62": {
       "type": "slideshow",
       "blocks": {
@@ -77,7 +60,7 @@
             "title": "",
             "title_size": 40,
             "subheading": "",
-            "link": "",
+            "link": "https:\/\/toplabelsonline.com\/collections\/homepage-shoes?filter.p.vendor=Dolce+%26+Gabbana",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -296,7 +279,6 @@
   "order": [
     "slideshow",
     "featured-collection",
-    "background-image-text",
     "18fa67ae-c93b-4e5e-8fa9-b85cd8518d62",
     "1692f8f4-0b34-4516-b088-ee3dd53e35d3",
     "1ad947d8-6d5a-447b-8570-b1e156d35040",
