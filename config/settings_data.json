@@ -757,7 +757,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#smartwishlist_desktop_link {display: none !important;}"
+      "#smartwishlist_desktop_link {display: none !important;}",
+      ".medium-up--hide {max-width: 40px !important;}"
     ]
   }
 }
