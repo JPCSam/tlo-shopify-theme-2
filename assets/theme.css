@@ -10716,6 +10716,7 @@ html[dir=rtl] .grid-product__content {
 
   .grid-product__meta {
     min-height: 150px;
+    grid-template-rows: 110px 40px;
   }
 }
 
@@ -10740,6 +10741,17 @@ html[dir=rtl] .grid-product__content {
   align-items: center;
   color: #1c1d1d;
   color: var(--colorPrice);
+}
+
+@media only screen and (max-width:769px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .grid-product__price {
+    font-size: calc(var(--typeBaseSize)*0.75);
+    line-height: calc(var(--typeBaseSize)*0.75);
+  }
 }
 
 .grid-product__price--original {
@@ -10878,7 +10890,6 @@ html[dir=rtl] .grid-product__content {
     align-self: center;
   }
 
-  .grid-overflow-wrapper .grid-product__price,
   .grid-overflow-wrapper .grid__item {
     font-size: 0.75rem;
   }
