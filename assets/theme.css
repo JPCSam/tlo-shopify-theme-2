@@ -10747,6 +10747,8 @@ html[dir=rtl] .grid-product__content {
   -webkit-text-decoration-line: line-through;
   text-decoration-color: #C20000;
   -webkit-text-decoration-color: #C20000;
+  text-decoration: line-through red;
+  -webkit-text-decoration: line-through red;
   margin-right: 5px;
 }
 
