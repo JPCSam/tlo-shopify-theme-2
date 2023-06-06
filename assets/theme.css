@@ -10752,6 +10752,15 @@ html[dir=rtl] .grid-product__content {
   margin-right: 5px;
 }
 
+.grid-product__price--original:after {
+  border-top: 1px solid #000;
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  left: 0;
+}
+
 .grid-product__price--savings {
   margin-left: 5px;
   white-space: nowrap;
