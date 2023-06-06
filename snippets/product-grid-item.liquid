@@ -205,12 +205,6 @@
           {{ product.title }}
         </div>
         <div class="grid-product__price">
-          {%- if on_sale -%}
-            <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-            <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
-            <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-          {%- endif -%}
-
           {%- if product.price_varies -%}
             {%- assign price = product.price_min | money -%}
             {{ 'products.general.from_text_html' | t: price: price }}
@@ -229,6 +223,14 @@
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {%- endif -%}
+          {%- endif -%}
+
+          {%- if on_sale -%}
+            <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+            <span class="grid-product__price--original"
+              ><strike>{{ product.compare_at_price | money }}</strike></span
+            >
+            <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
           {%- endif -%}
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
