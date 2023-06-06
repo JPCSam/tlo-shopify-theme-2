@@ -10743,7 +10743,12 @@ html[dir=rtl] .grid-product__content {
 
 .grid-product__price--original {
   color: #C20000;
-  text-decoration: line-through;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: #C20000;
+  -webkit-text-decoration-color: #C20000;
+  text-decoration: line-through #C20000;
+  -webkit-text-decoration: line-through #C20000;
   margin-right: 5px;
 }
 
