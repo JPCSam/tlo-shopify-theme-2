@@ -227,9 +227,7 @@
 
           {%- if on_sale -%}
             <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-            <span class="grid-product__price--original"
-              ><strike>{{ product.compare_at_price | money }}</strike></span
-            >
+            <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
             <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
           {%- endif -%}
 

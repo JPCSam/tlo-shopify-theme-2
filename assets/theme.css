@@ -10730,17 +10730,19 @@ html[dir=rtl] .grid-product__content {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600 !important;
+  padding: 0 5px;
   color: black;
 }
 
 .grid-product__price {
   display: flex;
-  font-size: calc(var(--typeBaseSize)*0.85);
+  font-size: calc(var(--typeBaseSize)*1);
   line-height: calc(var(--typeBaseSize)*0.85);
   justify-content: center;
   align-items: center;
-  color: #1c1d1d;
-  color: var(--colorPrice);
+  border-top: solid rgba(0, 0, 0, 0.1) 1px;
+  background-color: rgba(0, 0, 0, 0.025);
+  color: #C20000;
 }
 
 @media only screen and (max-width:769px) {
@@ -10758,7 +10760,7 @@ html[dir=rtl] .grid-product__content {
   font-size: calc(var(--typeBaseSize)*0.85) !important;
   line-height: calc(var(--typeBaseSize)*0.85) !important;
   /* position: relative; */
-  color: #C20000;
+  color: #919191;
   /* text-decoration-line: line-through;
   -webkit-text-decoration-line: line-through;
   text-decoration-color: #C20000;
