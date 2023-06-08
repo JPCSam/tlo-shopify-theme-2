@@ -82,6 +82,9 @@
         "template--16196724228254__fb5425e3-99f7-47ec-b0f2-e114cde49dc5-1686235738f9827e35-1",
         "1622a7bc-73e0-4851-b35b-b261114daa5d"
       ],
+      "custom_css": [
+        ".rte--block.rte--strong {color: #ff4e4e;}"
+      ],
       "settings": {
         "full_width": false,
         "gutter_size": 0,
