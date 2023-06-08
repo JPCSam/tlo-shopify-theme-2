@@ -1,12 +1,277 @@
 {
   "sections": {
+    "54df89b6-aabc-4374-b218-cd9c2fdac8eb": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "GIFT IDEAS",
+        "title": "FATHER'S DAY OFFERS",
+        "text": "<p>We're here to help you find the perfect gift that combines style, functionality, and quality!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/banner.png",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "left",
+        "lazyload_images": false
+      }
+    },
+    "fb5425e3-99f7-47ec-b0f2-e114cde49dc5": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16196724228254__fb5425e3-99f7-47ec-b0f2-e114cde49dc5-1686235738f9827e35-0": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--16196724228254__fb5425e3-99f7-47ec-b0f2-e114cde49dc5-1686235738f9827e35-1": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "1622a7bc-73e0-4851-b35b-b261114daa5d": {
+          "type": "sale_collection",
+          "settings": {
+            "sale_collection": "men-all-bags",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "DESIGNER BAGS",
+            "width": "100",
+            "color_tint": "#ff4f33",
+            "color_tint_opacity": 0,
+            "boxed": true,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16196724228254__fb5425e3-99f7-47ec-b0f2-e114cde49dc5-1686235738f9827e35-0",
+        "template--16196724228254__fb5425e3-99f7-47ec-b0f2-e114cde49dc5-1686235738f9827e35-1",
+        "1622a7bc-73e0-4851-b35b-b261114daa5d"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "3ac62a95-dd57-4532-beb4-ebd33b40f990": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "WATCHES",
+        "home_featured_products": "men-watches",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "b826ac4a-a5ff-4573-963f-0c46ac2ed4db": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-0",
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-1",
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-2",
+        "template--16196724228254__b826ac4a-a5ff-4573-963f-0c46ac2ed4db-16862351902a4ae5da-3"
+      ],
+      "settings": {
+        "featured_product": "gant-blue-shirt-13",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "small",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "b4a086f8-9a22-4790-ba14-6d25fe5d1c18": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "MORE SHIRTS",
+        "home_featured_products": "men-shirts",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "f9443271-8b5e-4be7-b9ee-db45a7388bd9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SUNGLASSES",
+        "home_featured_products": "men-sunglasses",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "aeec932c-1a80-42e3-99e5-1c774323249b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-0",
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-1",
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-2",
+        "template--16196724228254__aeec932c-1a80-42e3-99e5-1c774323249b-16862351902a4ae5da-3"
+      ],
+      "settings": {
+        "featured_product": "tommy-hilfiger-white-polyester-sneaker-41",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "small",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "c4a101f2-56f6-4527-a4da-441f6f83b6aa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "MORE TRAINERS",
+        "home_featured_products": "mens-trainers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "82c6fe7e-a741-43bf-8657-3e6b3d5f354d": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "article",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
       }
     }
   },
   "order": [
-    "main"
+    "54df89b6-aabc-4374-b218-cd9c2fdac8eb",
+    "fb5425e3-99f7-47ec-b0f2-e114cde49dc5",
+    "main",
+    "3ac62a95-dd57-4532-beb4-ebd33b40f990",
+    "b826ac4a-a5ff-4573-963f-0c46ac2ed4db",
+    "b4a086f8-9a22-4790-ba14-6d25fe5d1c18",
+    "f9443271-8b5e-4be7-b9ee-db45a7388bd9",
+    "aeec932c-1a80-42e3-99e5-1c774323249b",
+    "c4a101f2-56f6-4527-a4da-441f6f83b6aa",
+    "82c6fe7e-a741-43bf-8657-3e6b3d5f354d"
   ]
 }
